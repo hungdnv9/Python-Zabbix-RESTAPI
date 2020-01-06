@@ -11,8 +11,9 @@ Requirements: You have a lot of experence with Zabbix and Python script. If you 
 pip install -r requirements.txt
 ```
 ## REST API
+```sh
 /bin/curl -X POST -H "Content-Type: application/json" -d '{"token":"2c67020a8133a17b4763518ee77abb77", "message":"Just test msg, created by system", "value": "123", "tags": "system"}' -u "user":"password" https://zabbix-domain.com/v1/api
-
+```
 ## Output
 ```sh
 2020-01-06 16:15:55,488 - loging - INFO - Log in to the API
