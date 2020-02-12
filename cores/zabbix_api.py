@@ -10,7 +10,7 @@ import os
 from .common.helper import check_file_exit, check_item_trigger_exist, http_post
 
 # LOAD CONFIG FILE
-config_file = '/data/www/public_html/v2.api.zabbix.adx.vn/cores/data/zabbix_config.ini'
+config_file = '/data/www/public_html/v2.api.zabbix..vn/cores/data/zabbix_config.ini'
 config = configparser.RawConfigParser()
 config.read(config_file)
 
